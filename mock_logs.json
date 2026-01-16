@@ -1,0 +1,270 @@
+[
+    {
+        "eventID": "045656bd-a3e6-4687-8c17-56523d2395a3",
+        "eventTime": "2026-01-14T10:28:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "AuthorizeSecurityGroupIngress",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "dev_bob"
+        },
+        "sourceIPAddress": "172.16.0.5",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "94fab3c7-69bd-4768-ac79-7f8bc666a775",
+        "eventTime": "2026-01-14T18:22:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "AuthorizeSecurityGroupIngress",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "dev_bob"
+        },
+        "sourceIPAddress": "192.168.1.10",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "70e4ea5a-fd05-446c-8022-64513d3666f7",
+        "eventTime": "2026-01-14T18:14:14Z",
+        "eventSource": "s3.amazonaws.com",
+        "eventName": "PutObject",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "intern_charlie"
+        },
+        "sourceIPAddress": "10.0.0.50",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "c3662f63-22a5-4907-9ec2-1372e755c147",
+        "eventTime": "2026-01-14T17:57:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "AuthorizeSecurityGroupIngress",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "intern_charlie"
+        },
+        "sourceIPAddress": "192.168.1.10",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "8b7218a3-d0dc-4b5f-b291-2b8f21ae5585",
+        "eventTime": "2026-01-14T17:28:14Z",
+        "eventSource": "s3.amazonaws.com",
+        "eventName": "PutObject",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "dev_bob"
+        },
+        "sourceIPAddress": "10.0.0.50",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "4f0fcfde-644f-445f-889a-c1594a73017a",
+        "eventTime": "2026-01-15T00:54:14Z",
+        "eventSource": "s3.amazonaws.com",
+        "eventName": "PutObject",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "intern_charlie"
+        },
+        "sourceIPAddress": "172.16.0.5",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "8b5b4297-583b-4d4a-9824-fd093ec09fa0",
+        "eventTime": "2026-01-14T17:44:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "AuthorizeSecurityGroupIngress",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "admin_alice"
+        },
+        "sourceIPAddress": "10.0.0.50",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "c18e0cd9-bc19-4782-8ef1-bbf24c1a6d13",
+        "eventTime": "2026-01-14T22:23:14Z",
+        "eventSource": "s3.amazonaws.com",
+        "eventName": "PutObject",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "dev_bob"
+        },
+        "sourceIPAddress": "172.16.0.5",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "a8546952-5582-4569-8db9-efb0da8a4a82",
+        "eventTime": "2026-01-14T19:53:14Z",
+        "eventSource": "signin.amazonaws.com",
+        "eventName": "ConsoleLogin",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "intern_charlie"
+        },
+        "sourceIPAddress": "192.168.1.10",
+        "responseElements": {
+            "ConsoleLogin": "Success"
+        },
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "8c4b0c04-c96a-4fd2-afe6-0b6362212022",
+        "eventTime": "2026-01-14T19:17:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "AuthorizeSecurityGroupIngress",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "dev_bob"
+        },
+        "sourceIPAddress": "172.16.0.5",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "9588a437-5a58-4ce8-99dc-28c698aa45e9",
+        "eventTime": "2026-01-15T01:08:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "TerminateInstances",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "admin_alice"
+        },
+        "sourceIPAddress": "172.16.0.5",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "ad6e2e4a-cdd4-429f-b501-9f6558e3489d",
+        "eventTime": "2026-01-14T16:05:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "AuthorizeSecurityGroupIngress",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "admin_alice"
+        },
+        "sourceIPAddress": "10.0.0.50",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "9653490b-f42a-4e08-ad6c-2ab4d12b26b6",
+        "eventTime": "2026-01-14T18:58:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "AuthorizeSecurityGroupIngress",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "intern_charlie"
+        },
+        "sourceIPAddress": "172.16.0.5",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "6549c691-b66c-4158-8caf-d4f2504bbb1d",
+        "eventTime": "2026-01-14T18:51:14Z",
+        "eventSource": "signin.amazonaws.com",
+        "eventName": "ConsoleLogin",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "dev_bob"
+        },
+        "sourceIPAddress": "172.16.0.5",
+        "responseElements": {
+            "ConsoleLogin": "Success"
+        },
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "0d45ce77-77e2-4282-9ee4-342716fdda72",
+        "eventTime": "2026-01-14T16:28:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "AuthorizeSecurityGroupIngress",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "dev_bob"
+        },
+        "sourceIPAddress": "192.168.1.10",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "b3143887-ece8-446b-8b43-b061b3dea129",
+        "eventTime": "2026-01-14T09:33:14Z",
+        "eventSource": "signin.amazonaws.com",
+        "eventName": "ConsoleLogin",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "admin_alice"
+        },
+        "sourceIPAddress": "185.156.175.42",
+        "responseElements": {
+            "ConsoleLogin": "Failure"
+        },
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "a53ed66c-8496-4dac-b698-bb23bd3e629f",
+        "eventTime": "2026-01-14T14:32:14Z",
+        "eventSource": "signin.amazonaws.com",
+        "eventName": "ConsoleLogin",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "dev_bob"
+        },
+        "sourceIPAddress": "172.16.0.5",
+        "responseElements": {
+            "ConsoleLogin": "Success"
+        },
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "37d6c34d-4d03-4616-82d7-c2aabe045ed4",
+        "eventTime": "2026-01-14T14:34:14Z",
+        "eventSource": "ec2.amazonaws.com",
+        "eventName": "TerminateInstances",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "intern_charlie"
+        },
+        "sourceIPAddress": "10.0.0.50",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "a6e7b2be-e5ab-4a8c-97f8-e2fa1229646c",
+        "eventTime": "2026-01-14T21:54:14Z",
+        "eventSource": "s3.amazonaws.com",
+        "eventName": "PutObject",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "intern_charlie"
+        },
+        "sourceIPAddress": "10.0.0.50",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    },
+    {
+        "eventID": "000efb0a-12a0-41ae-bf11-ddbed00dd124",
+        "eventTime": "2026-01-14T13:26:14Z",
+        "eventSource": "s3.amazonaws.com",
+        "eventName": "PutObject",
+        "userIdentity": {
+            "type": "IAMUser",
+            "userName": "intern_charlie"
+        },
+        "sourceIPAddress": "10.0.0.50",
+        "responseElements": null,
+        "userAgent": "Mozilla/5.0 (AWS Management Console)"
+    }
+]

@@ -1,0 +1,26 @@
+name: Dockerized CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest # La VM dove girerà il container
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4 # Clona il repo nella VM
+
+    # Passaggio 1: Costruiamo l'immagine Docker
+    - name: Build Docker Image
+      run: |
+        docker build -t cloud-security-analyzer .
+
+    # Eseguiamo i Test DENTRO il container
+    # Sovrascriviamo il comando CMD del Dockerfile lanciando 'pytest'
+    - name: Run Tests inside Docker
+      run: |
+        docker run --rm cloud-security-analyzer pytest
